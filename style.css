@@ -1,0 +1,46 @@
+:root {
+  font-family: "PT Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/background-body.jpg);
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  background-color: #1a0b2e;
+}
+
+#head h1 {
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+#head span {
+  color: #7127ba;
+}
+
+#head ul,
+li,
+a {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 100px;
+  color: #fff;
+}
